@@ -1,0 +1,125 @@
+$septa-red: #ef4933;
+$septa-blue: #2352a0;
+$septa-dark-gray: #595959;
+$septa-light-gray: #cccccc;
+
+p {
+  color: $septa-dark-gray;
+}
+
+a {
+  color: $septa-dark-gray;
+}
+
+h2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 1.7em;
+  padding: 0px 0px 20px;
+  margin: 0px;
+  color: $septa-dark-gray;
+}
+
+input[type="number"] {
+  padding: 15px 8px 15px 20px;
+  font-size: 1.6em;
+  border-radius: 4px;
+  width: 100px;
+  text-align: center;
+  border:1px solid #cccccc
+}
+
+select{
+  padding: 6px 10px;
+  font-size: 1.4em;
+  border-radius: 4px;
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  border:1px solid #cccccc;
+  color: $septa-dark-gray;
+}
+
+.App {
+  text-align: center;
+  border: solid 3px $septa-light-gray;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 36px;
+  padding: 0px 20px;
+  float: left;
+  color: $septa-dark-gray;
+}
+
+.App-header {
+  background-color: $septa-dark-gray;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2.2em;
+  color: #ffffff;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.flex-title-container {
+  display: inline-flex;
+}
+
+.septa-fare-section {
+  border: solid 1px $septa-light-gray;
+  padding: 25px 20px 5px;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+.helper-text {
+  p {
+    color: darken($septa-light-gray, 20%);
+    font-size: 1em;
+  }
+}
+
+.radios {
+  color: $septa-dark-gray;
+  font-size: 1.4em;
+  margin: 0 0 0 31%;
+  text-align: left;
+  display: block
+  label{
+    font-size:1.4;
+  }
+}
+
+.radio-label{
+  font-size:1.4;
+  display: inline;
+}
+
+input[type="radio"] {
+  font-size: 1.6em;
+  vertical-align: top;
+}
+.total-price-text {
+  font-size: 2.6em;
+  color: #ffffff;
+}
+
+.fare-total {
+  background-color: $septa-dark-gray;
+  color: #ffffff;
+}
+
+
